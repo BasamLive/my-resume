@@ -28,9 +28,7 @@ const skills = [
 const App = () => {
   const contentRef = useRef(null);
   const handlePrint = useReactToPrint({ contentRef });
-  useEffect(() => {
-    console.log("content ref:", contentRef.current);
-  }, []);
+
   return (
     <>
       <div ref={contentRef} className="container">
