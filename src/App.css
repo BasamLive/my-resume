@@ -137,6 +137,11 @@ body {
   padding: 0;
   margin: 0;
 }
+.education-secondary-heading a {
+  text-decoration: none;
+  color: black;
+}
+
 .education-university-name {
   font-size: 12px;
   font-style: italic;

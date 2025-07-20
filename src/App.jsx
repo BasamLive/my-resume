@@ -178,7 +178,21 @@ const App = () => {
             </div>
             <div>
               <h3 className="education-secondary-heading">
-                Web Developer Career Path
+                <a href="https://scrimba.com/certificate-cert2uNjfK9m1n3nnmJKTxdtGLK99seLhPr2PNg">
+                  Frontend Developer Career Path
+                  <svg
+                    class="arrow-icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    width="16"
+                    height="16"
+                  >
+                    <path
+                      fill="currentColor"
+                      d="M14 3h7v7h-2V6.41L10.41 15 9 13.59 17.59 5H14V3z"
+                    />
+                  </svg>
+                </a>
               </h3>
               <p className="education-university-name">
                 Scrimba Coding Platform - Online / 2024 - 2025
