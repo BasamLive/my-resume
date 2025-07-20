@@ -218,6 +218,23 @@ li {
   padding: 0 0 0 17px;
   margin: 0;
 }
+@media screen and (max-width: 768) {
+  .container {
+    display: block;
+    width: 100%;
+    padding: 1rem;
+    overflow: hidden;
+  }
+  .left-column,
+  .right-column {
+    width: 100%;
+    float: none;
+    margin: 0 auto;
+  }
+  .left-column {
+    margin-bottom: 2rem;
+  }
+}
 
 @media screen and (min-width: 950px) {
   .container {
