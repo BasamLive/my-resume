@@ -8,6 +8,7 @@ body {
 }
 
 .container {
+  font-family: inherit;
   position: relative;
   display: flex;
   justify-content: space-between;
@@ -222,9 +223,11 @@ li {
 @media screen and (max-width: 768px) {
   .container {
     width: 100%;
+    font-family: "fira code";
     height: auto; /* let height grow with content */
     flex-direction: column;
-    padding: 1rem;
+    padding: 0.5rem;
+    font-size: 12px;
     box-sizing: border-box;
     overflow-y: visible; /* ensure full scroll on smaller devices */
   }
