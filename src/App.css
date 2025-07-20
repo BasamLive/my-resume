@@ -185,6 +185,18 @@ body {
   }
   .date-details {
     display: block;
+    margin-top: 0;
+  }
+  .container {
+    height: 1050px;
+    overflow: hidden;
+    margin: 0 auto;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  footer {
+    padding: 0;
+    position: static;
   }
 }
 
