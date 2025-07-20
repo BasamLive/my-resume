@@ -219,26 +219,38 @@ li {
   padding: 0 0 0 17px;
   margin: 0;
 }
-@media screen and (max-width: 768) {
+@media screen and (max-width: 768px) {
   .container {
     width: 100%;
-    height: auto;
-    min-height: 1122px;
+    height: auto; /* let height grow with content */
+    flex-direction: column;
     padding: 1rem;
     box-sizing: border-box;
+    overflow-y: visible; /* ensure full scroll on smaller devices */
   }
+
+  .left-column,
+  .right-column {
+    width: 100%;
+    max-width: none;
+    margin: 0 0 2rem 0;
+  }
+
+  .right-column {
+    margin-top: 0;
+  }
+
   .picture {
     display: none;
   }
-  /* .left-column,
-  .right-column {
-    width: 100%;
-    float: none;
-    margin: 0 auto;
+
+  footer {
+    position: static;
+    padding: 1rem 0;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
   }
-  .left-column {
-    margin-bottom: 2rem;
-  } */
 }
 
 @media screen and (min-width: 950px) {
