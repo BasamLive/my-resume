@@ -13,7 +13,8 @@ body {
   justify-content: space-between;
   flex-wrap: wrap;
   max-width: 900px;
-  height: 297mm;
+  height: 1122px;
+  overflow-y: auto;
   background: beige;
 
   /* background: linear-gradient(to left, #ddd, rgb(236, 162, 181)); */
@@ -220,12 +221,13 @@ li {
 }
 @media screen and (max-width: 768) {
   .container {
-    display: block;
     width: 100%;
+    height: auto;
+    min-height: 1122px;
     padding: 1rem;
-    overflow: hidden;
+    box-sizing: border-box;
   }
-  .left-column,
+  /* .left-column,
   .right-column {
     width: 100%;
     float: none;
@@ -233,7 +235,7 @@ li {
   }
   .left-column {
     margin-bottom: 2rem;
-  }
+  } */
 }
 
 @media screen and (min-width: 950px) {
