@@ -227,6 +227,9 @@ li {
     padding: 1rem;
     box-sizing: border-box;
   }
+  .picture {
+    display: none;
+  }
   /* .left-column,
   .right-column {
     width: 100%;
