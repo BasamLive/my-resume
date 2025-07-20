@@ -126,9 +126,9 @@ const App = () => {
               <h3 className="experience-highlight">Highlights:</h3>
               <ul className="experience-list">
                 <li>
-                  Built a modular e-cmmerce web application using ReactJs,
+                  Built a modular e-commerce web application using ReactJs,
                   showcasing building materials across distinct categories
-                  (plumbing, Electrical, paint Cement) with dynamic product
+                  (plumbing, Electrical, paint & Cement) with dynamic product
                   components.
                 </li>
                 <li>
@@ -170,7 +170,7 @@ const App = () => {
             <div>
               <h1 className="education-primary-heading">Education</h1>
               <h3 className="education-secondary-heading">
-                Library & Information Science
+                B.A Library & Information Science
               </h3>
               <p className="education-university-name">
                 Neelain University - Khartoum Sudan / 2009 - 2013
@@ -185,7 +185,9 @@ const App = () => {
               </p>
             </div>
             <div>
-              <h3 className="education-secondary-heading">Fronend Developer</h3>
+              <h3 className="education-secondary-heading">
+                Certified Full Stack Developer
+              </h3>
               <p className="education-university-name">
                 FreeCodeCamp Coding platform - Online / 2024 - 2025
               </p>
