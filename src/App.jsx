@@ -178,10 +178,13 @@ const App = () => {
             </div>
             <div>
               <h3 className="education-secondary-heading">
-                <a href="https://scrimba.com/certificate-cert2uNjfK9m1n3nnmJKTxdtGLK99seLhPr2PNg">
+                <a
+                  href="https://scrimba.com/certificate-cert2uNjfK9m1n3nnmJKTxdtGLK99seLhPr2PNg"
+                  target="_blank"
+                >
                   Frontend Developer Career Path
                   <svg
-                    class="arrow-icon"
+                    className="arrow-icon"
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 24 24"
                     width="16"
