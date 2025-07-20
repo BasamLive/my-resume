@@ -1,4 +1,4 @@
-import { useRef, useEffect } from "react";
+import { useRef } from "react";
 import { useReactToPrint } from "react-to-print";
 
 import { IoLogoReact } from "react-icons/io5";
@@ -11,7 +11,7 @@ import { FaXTwitter } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa6";
 import { SiLichess } from "react-icons/si";
-
+// import { FiExternalLink } from "react-icons/fi";
 const skills = [
   { name: "HTML5", color: "#e34c26" }, // foundational and strong
   { name: "CSS3", color: "#264de4" }, // creative styling wizard
@@ -178,24 +178,7 @@ const App = () => {
             </div>
             <div>
               <h3 className="education-secondary-heading">
-                <a
-                  href="https://scrimba.com/certificate-cert2uNjfK9m1n3nnmJKTxdtGLK99seLhPr2PNg"
-                  target="_blank"
-                >
-                  Frontend Developer Career Path
-                  <svg
-                    className="arrow-icon"
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 24 24"
-                    width="16"
-                    height="16"
-                  >
-                    <path
-                      fill="currentColor"
-                      d="M14 3h7v7h-2V6.41L10.41 15 9 13.59 17.59 5H14V3z"
-                    />
-                  </svg>
-                </a>
+                Frontend Developer Career Path
               </h3>
               <p className="education-university-name">
                 Scrimba Coding Platform - Online / 2024 - 2025
