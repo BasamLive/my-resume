@@ -104,6 +104,7 @@ const App = () => {
             <div className="two-languages">
               <p> [Arabic]</p>
               <p>[English] </p>
+              <p>[Broken french]</p>
             </div>
           </div>
         </div>
