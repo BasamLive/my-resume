@@ -13,14 +13,14 @@ import { FaGithub } from "react-icons/fa6";
 import { SiLichess } from "react-icons/si";
 // import { FiExternalLink } from "react-icons/fi";
 const skills = [
-  { name: "HTML5", color: "#e34c26" }, // foundational and strong
-  { name: "CSS3", color: "#264de4" }, // creative styling wizard
+  { name: "HTML5", color: "#f39746ff" }, // foundational and strong
+  { name: "CSS3", color: "#5777f6ff" }, // creative styling wizard
   { name: "JavaScript (ES6+)", color: "#f7df1e" }, // logic master, very capable
-  { name: "TypeScript", color: "#3178c6" }, // newer layer, but launching fast
+  { name: "TypeScript", color: "#7fbbfaff" }, // newer layer, but launching fast
   { name: "ReactJS", color: "#61dafb" }, // your power tool, real passion
-  { name: "Nodejs", color: "#0f3" },
+  { name: "Nodejs", color: "#00ff33" },
   { name: "Redux", color: "#De73EE" },
-  { name: "Axios", color: "#80F" },
+  { name: "Axios", color: " #f943e7ff" },
   { name: "Git", color: "#Fa7970" },
   { name: "SASS", color: "#cf649a" }, // clever with structure and nesting
 ];
