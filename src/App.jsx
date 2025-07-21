@@ -43,14 +43,22 @@ const App = () => {
         <div className="left-column">
           <h1 className="name">basam mohamed</h1>
           <h3 className="title">
-            <IoLogoReact style={{ fontSize: "16", paddingRight: "3px" }} />
+            <IoLogoReact
+              style={{
+                fontSize: "16",
+                paddingRight: "3px",
+                // background: "blue",
+                position: "relative",
+                top: "4px",
+              }}
+            />
             React.Js Developer
           </h3>
           <p className="email">
             <MdAttachEmail
               style={{
                 fontSize: "16px",
-                marginTop: "4px",
+                marginTop: "1px",
                 paddingRight: "2px",
               }}
             />
