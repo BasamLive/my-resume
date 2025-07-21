@@ -11,7 +11,7 @@ import { FaXTwitter } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa6";
 import { SiLichess } from "react-icons/si";
-// import { FiExternalLink } from "react-icons/fi";
+import { FiExternalLink } from "react-icons/fi";
 const skills = [
   { name: "HTML5", color: "#f39746ff" }, // foundational and strong
   { name: "CSS3", color: "#5777f6ff" }, // creative styling wizard
@@ -176,26 +176,29 @@ const App = () => {
           </section>
 
           <section>
-            <div>
-              <h1 className="education-primary-heading">Education</h1>
+            <h1 className="education-primary-heading">Education</h1>
+            <div className="edu-one">
               <h3 className="education-secondary-heading">
-                B.A Library & Information Science
+                B.A Library & Information Science{" "}
+                <FiExternalLink className="external-link" />
               </h3>
               <p className="education-university-name">
                 Neelain University - Khartoum Sudan / 2009 - 2013
               </p>
             </div>
-            <div>
+            <div className="edu-two">
               <h3 className="education-secondary-heading">
-                Frontend Developer Career Path
+                Frontend Developer Career Path{" "}
+                <FiExternalLink className="external-link" />
               </h3>
               <p className="education-university-name">
                 Scrimba Coding Platform - Online / 2024 - 2025
               </p>
             </div>
-            <div>
+            <div className="edu-three">
               <h3 className="education-secondary-heading">
-                Certified Full Stack Developer
+                Certified Full Stack Developer{" "}
+                <FiExternalLink className="external-link" />
               </h3>
               <p className="education-university-name">
                 FreeCodeCamp Coding platform - Online / 2024 - 2025
