@@ -53,7 +53,8 @@ const App = () => {
                 top: "4px",
               }}
             />
-            React.Js Developer <FaCheckCircle className="varified" />
+            React.Js Developer
+            <FaCheckCircle className="varified" />
           </h3>
           <p className="email">
             <MdAttachEmail

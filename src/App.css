@@ -54,6 +54,8 @@ body {
 
 .title .varified {
   color: rgb(40, 40, 246) !important;
+  position: relative;
+  top: 3px;
 }
 
 .email {
