@@ -12,6 +12,7 @@ import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa6";
 import { SiLichess } from "react-icons/si";
 import { FiExternalLink } from "react-icons/fi";
+import { FaCheckCircle } from "react-icons/fa";
 const skills = [
   { name: "HTML5", color: "#f39746ff" }, // foundational and strong
   { name: "CSS3", color: "#5777f6ff" }, // creative styling wizard
@@ -52,7 +53,7 @@ const App = () => {
                 top: "4px",
               }}
             />
-            React.Js Developer
+            React.Js Developer <FaCheckCircle />
           </h3>
           <p className="email">
             <MdAttachEmail
@@ -62,13 +63,17 @@ const App = () => {
                 paddingRight: "2px",
               }}
             />
-            <a href="mailto:basabasam@hotmail.com">basabasam@hotmail.com</a>
+            <a href="mailto:basabasam@hotmail.com">
+              basabasam@hotmail.com <FiExternalLink />
+            </a>
           </p>
           <p className="phone">
             <MdPhoneCallback
               style={{ marginTop: "3px", paddingRight: "2px" }}
             />
-            <a href="tel:+971557657992">(+971)-557657992</a>
+            <a href="tel:+971557657992">
+              (+971)-557657992 <FiExternalLink className="external-link" />
+            </a>
           </p>
           <p className="location">
             <ImLocation2 /> Dubai UAE
@@ -179,8 +184,7 @@ const App = () => {
             <h1 className="education-primary-heading">Education</h1>
             <div className="edu-one">
               <h3 className="education-secondary-heading">
-                B.A Library & Information Science{" "}
-                <FiExternalLink className="external-link" />
+                B.A Library & Information Science <FiExternalLink />
               </h3>
               <p className="education-university-name">
                 Neelain University - Khartoum Sudan / 2009 - 2013
@@ -188,8 +192,8 @@ const App = () => {
             </div>
             <div className="edu-two">
               <h3 className="education-secondary-heading">
-                Frontend Developer Career Path{" "}
-                <FiExternalLink className="external-link" />
+                Frontend Developer Career Path
+                <FiExternalLink />
               </h3>
               <p className="education-university-name">
                 Scrimba Coding Platform - Online / 2024 - 2025
@@ -197,8 +201,8 @@ const App = () => {
             </div>
             <div className="edu-three">
               <h3 className="education-secondary-heading">
-                Certified Full Stack Developer{" "}
-                <FiExternalLink className="external-link" />
+                Certified Full Stack Developer
+                <FiExternalLink />
               </h3>
               <p className="education-university-name">
                 FreeCodeCamp Coding platform - Online / 2024 - 2025
@@ -206,7 +210,7 @@ const App = () => {
             </div>
             <div>
               <h3 className="education-secondary-heading">
-                Technical Support Engineer
+                Technical Support Engineer <FiExternalLink />
               </h3>
               <p className="education-university-name">
                 Coursera Coding Platform - Online / 2024 - current
