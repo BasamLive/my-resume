@@ -16,9 +16,9 @@ body {
   max-width: 900px;
   height: 1122px;
   overflow-y: auto;
-  background: beige;
+  /* background: beige; */
 
-  /* background: linear-gradient(to left, #ddd, rgb(236, 162, 181)); */
+  background: linear-gradient(to left, rgb(249, 245, 184), beige);
 }
 .two-languages {
   display: flex;
@@ -179,6 +179,7 @@ body {
   position: absolute;
   bottom: 0;
   display: none;
+  font-size: 10px;
 }
 
 @media print {
