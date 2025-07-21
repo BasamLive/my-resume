@@ -23,6 +23,7 @@ body {
 .two-languages {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .two-languages:nth-child(2) {
