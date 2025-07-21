@@ -53,7 +53,7 @@ const App = () => {
                 top: "4px",
               }}
             />
-            React.Js Developer <FaCheckCircle />
+            React.Js Developer <FaCheckCircle className="varified" />
           </h3>
           <p className="email">
             <MdAttachEmail
@@ -192,8 +192,7 @@ const App = () => {
             </div>
             <div className="edu-two">
               <h3 className="education-secondary-heading">
-                Frontend Developer Career Path
-                <FiExternalLink />
+                Frontend Developer Career Path <FiExternalLink />
               </h3>
               <p className="education-university-name">
                 Scrimba Coding Platform - Online / 2024 - 2025
@@ -201,8 +200,7 @@ const App = () => {
             </div>
             <div className="edu-three">
               <h3 className="education-secondary-heading">
-                Certified Full Stack Developer
-                <FiExternalLink />
+                Certified Full Stack Developer <FiExternalLink />
               </h3>
               <p className="education-university-name">
                 FreeCodeCamp Coding platform - Online / 2024 - 2025

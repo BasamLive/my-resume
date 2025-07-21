@@ -52,6 +52,10 @@ body {
   font-family: "fira code";
 }
 
+.title .varified {
+  color: rgb(40, 40, 246) !important;
+}
+
 .email {
   display: flex;
   justify-content: flex-start;
