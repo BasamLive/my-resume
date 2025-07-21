@@ -260,7 +260,10 @@ li {
   }
 
   .picture {
-    display: none;
+    height: 100px;
+    width: 100px;
+    top: 20px;
+    right: 10px;
   }
 
   footer {
