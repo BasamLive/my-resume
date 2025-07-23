@@ -120,6 +120,13 @@ const App = () => {
               <p>[English] </p>
               <p>[Broken french]</p>
             </div>
+            <div className="two-languages second">
+              <p> هلا </p>
+              <p> Hello </p>
+              <p>
+                Bonjo<span className="broken">ur</span>
+              </p>
+            </div>
           </div>
         </div>
         <div className="right-column">
