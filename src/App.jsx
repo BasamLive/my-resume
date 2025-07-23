@@ -124,7 +124,7 @@ const App = () => {
               <p> هلا </p>
               <p> Hello </p>
               <p>
-                Bonjo<span className="broken">ur</span>
+                Bonj<span className="broken">our</span>
               </p>
             </div>
           </div>
