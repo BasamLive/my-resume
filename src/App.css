@@ -40,6 +40,8 @@ body {
   display: inline-block;
   transform: rotateZ(20deg);
   padding-left: 2px;
+  letter-spacing: 0.2rem;
+  color: red;
 }
 .left-column {
   margin: 2rem 0;
