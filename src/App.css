@@ -185,6 +185,41 @@ body {
   background: #777;
   color: #fff;
   font-family: "fira code";
+  animation: colorShift 4s infinite ease-in-out;
+  transition: transform 0.3s ease;
+}
+
+@keyframes colorShift {
+  0% {
+    background-color: #e34f26;
+  }
+  10% {
+    background-color: #5777f6ff;
+  }
+  20% {
+    background-color: #f7df1e;
+  }
+  30% {
+    background-color: #3178c6;
+  }
+  40% {
+    background-color: #61dafb;
+  }
+  50% {
+    background-color: #339933;
+  }
+  60% {
+    background-color: #764abc;
+  }
+  70% {
+    background-color: #5a29e4;
+  }
+  80% {
+    background-color: #fa7970;
+  }
+  90% {
+    background-color: #cf649a;
+  }
 }
 .date-details {
   position: absolute;
