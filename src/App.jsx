@@ -14,14 +14,14 @@ import { SiLichess } from "react-icons/si";
 import { FiExternalLink } from "react-icons/fi";
 import { FaCheckCircle } from "react-icons/fa";
 const skills = [
-  { name: "HTML5", color: "#f39746ff" }, // foundational and strong
+  { name: "HTML5", color: "#E34F26" }, // foundational and strong
   { name: "CSS3", color: "#5777f6ff" }, // creative styling wizard
   { name: "JavaScript (ES6+)", color: "#f7df1e" }, // logic master, very capable
-  { name: "TypeScript", color: "#7fbbfaff" }, // newer layer, but launching fast
+  { name: "TypeScript", color: "#3178C6" }, // newer layer, but launching fast
   { name: "ReactJS", color: "#61dafb" }, // your power tool, real passion
-  { name: "Nodejs", color: "#00ff33" },
-  { name: "Redux", color: "#De73EE" },
-  { name: "Axios", color: " #f943e7ff" },
+  { name: "Nodejs", color: "#339933" },
+  { name: "Redux", color: "#764ABC" },
+  { name: "Axios", color: " #5A29E4" },
   { name: "Git", color: "#Fa7970" },
   { name: "SASS", color: "#cf649a" }, // clever with structure and nesting
 ];

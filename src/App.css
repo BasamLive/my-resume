@@ -190,9 +190,9 @@ body {
   .print-btn {
     display: none;
   }
-  .skill {
+  /* .skill {
     background: none !important;
-  }
+  } */
   .date-details {
     display: block;
   }
