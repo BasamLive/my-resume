@@ -43,7 +43,7 @@ body {
   display: inline-block;
   transform: rotateZ(15deg);
   padding-left: 2px;
-  letter-spacing: 0.2rem;
+  letter-spacing: 0.1rem;
 }
 .left-column {
   margin: 2rem 0;
