@@ -41,10 +41,9 @@ body {
 }
 .broken {
   display: inline-block;
-  transform: rotateZ(20deg);
+  transform: rotateZ(15deg);
   padding-left: 2px;
   letter-spacing: 0.2rem;
-  color: red;
 }
 .left-column {
   margin: 2rem 0;
