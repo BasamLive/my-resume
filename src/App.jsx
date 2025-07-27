@@ -192,7 +192,7 @@ const App = () => {
             <h1 className="education-primary-heading">Education</h1>
             <div className="edu-one">
               <h3 className="education-secondary-heading">
-                B.A Library & Information Science <FiExternalLink />
+                B.A Library & Information Science
               </h3>
               <p className="education-university-name">
                 Neelain University - Khartoum Sudan / 2009 - 2013
@@ -201,7 +201,6 @@ const App = () => {
             <div className="edu-two">
               <h3 className="education-secondary-heading">
                 Frontend Developer Career Pat
-                <FiExternalLink />
               </h3>
               <p className="education-university-name">
                 Scrimba Coding Platform - Online / 2024 - 2025
@@ -209,7 +208,7 @@ const App = () => {
             </div>
             <div className="edu-three">
               <h3 className="education-secondary-heading">
-                Certified Full Stack Developer <FiExternalLink />
+                Certified Full Stack Developer
               </h3>
               <p className="education-university-name">
                 FreeCodeCamp Coding platform - Online / 2024 - 2025
@@ -217,7 +216,7 @@ const App = () => {
             </div>
             <div>
               <h3 className="education-secondary-heading">
-                Technical Support Engineer <FiExternalLink />
+                Technical Support Engineer
               </h3>
               <p className="education-university-name">
                 Coursera Coding Platform - Online / 2024 - current
