@@ -200,7 +200,8 @@ const App = () => {
             </div>
             <div className="edu-two">
               <h3 className="education-secondary-heading">
-                Frontend Developer Career Path <FiExternalLink />
+                Frontend Developer Career Pat
+                <FiExternalLink />
               </h3>
               <p className="education-university-name">
                 Scrimba Coding Platform - Online / 2024 - 2025
