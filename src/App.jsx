@@ -135,9 +135,9 @@ const App = () => {
             <p className="overview-text">
               I’m a frontend developer with a passion for crafting responsive,
               scalable, and visually engaging web applications using ReactJS.
-              With a solid foundation in HTML, CSS, and JavaScript (ES6+), I
-              specialize in turning complex ideas into intuitive user interfaces
-              that balance functionality and design.
+              With a solid foundation in HTML5, CSS3,JavaScript (ES6+), and
+              TypeScript I specialize in turning complex ideas into intuitive
+              user interfaces that balance functionality and design.
             </p>
           </section>
           <section>
