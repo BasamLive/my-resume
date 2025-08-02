@@ -23,12 +23,17 @@ body {
   flex-wrap: wrap;
 }
 
-.two-languages:nth-child(3) {
+.two-languages ~ p {
+  margin: 0;
+  padding: 0;
+}
+
+/* .two-languages:nth-child(3) {
   margin-right: 50px;
-}
-.two-languages.second > p {
+} */
+/* .two-languages.second ~ p {
   font-size: 8px;
-}
+} */
 
 .arabic {
   font-family: "Amiri Quran", serif;
