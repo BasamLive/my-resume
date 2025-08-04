@@ -19,6 +19,8 @@ const skills = [
   { name: "JavaScript (ES6+)", color: "#f7df1e" }, // logic master, very capable
   { name: "TypeScript", color: "#3178C6" }, // newer layer, but launching fast
   { name: "ReactJS", color: "#61dafb" }, // your power tool, real passion
+  { name: "React Router", color: "linear-gradient(to right,#007ACC ,#FF6700)" },
+  { name: "Nextjs", color: "#f8f9fa" },
   { name: "Nodejs", color: "#339933" },
   { name: "Redux", color: "#764ABC" },
   { name: "Axios", color: " #5A29E4" },
@@ -100,6 +102,7 @@ const App = () => {
           <div>
             <h2>Soft Skills / Traits</h2>
             <ul className="softskills-ul">
+              <li>Blind Typing (75) WPM</li>
               <li>Detail-Orinted </li>
               <li>Resource Debugger </li>
               <li>Problem Solver </li>
@@ -200,7 +203,7 @@ const App = () => {
             </div>
             <div className="edu-two">
               <h3 className="education-secondary-heading">
-                Frontend Developer Career Pat
+                Frontend Developer Career Path
               </h3>
               <p className="education-university-name">
                 Scrimba Coding Platform - Online / 2024 - 2025
