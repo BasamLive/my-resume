@@ -206,7 +206,8 @@ const App = () => {
                 Frontend Developer Career Path
               </h3>
               <p className="education-university-name">
-                Scrimba Coding Platform - Online / 2024 - 2025
+                Scrimba Coding Platform - Online / 2024 - 2025{" "}
+                <FiExternalLink />
               </p>
             </div>
             <div className="edu-three">
@@ -214,7 +215,8 @@ const App = () => {
                 Certified Full Stack Developer
               </h3>
               <p className="education-university-name">
-                FreeCodeCamp Coding platform - Online / 2024 - 2025
+                FreeCodeCamp Coding platform - Online / 2024 - 2025{" "}
+                <FiExternalLink />
               </p>
             </div>
             <div>
@@ -222,7 +224,8 @@ const App = () => {
                 Technical Support Engineer
               </h3>
               <p className="education-university-name">
-                Coursera Coding Platform - Online / 2024 - current
+                Coursera Coding Platform - Online / 2024 - current{" "}
+                <FiExternalLink />
               </p>
             </div>
             {/* <div>
