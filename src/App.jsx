@@ -39,7 +39,7 @@ const App = () => {
           {" "}
           print date {new Date().toLocaleDateString()}
         </p>
-        <div className="diagonal-name">basam mohamed</div>
+
         <button onClick={handlePrint} className="print-btn">
           Print
         </button>
