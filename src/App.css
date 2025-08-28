@@ -39,6 +39,12 @@ body {
   font-family: "Amiri Quran", serif;
 } */
 
+.arabic,
+.english,
+.french {
+  padding-top: 5px;
+}
+
 .broken {
   display: inline-block;
   transform: rotateZ(15deg);
