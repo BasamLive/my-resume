@@ -6,13 +6,14 @@ import { MdAttachEmail } from "react-icons/md";
 import { MdPhoneCallback } from "react-icons/md";
 import { ImLocation2 } from "react-icons/im";
 import image from "./assets/basam.jpeg";
-import { FaBluesky } from "react-icons/fa6";
+import { FaA, FaBluesky } from "react-icons/fa6";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa6";
 import { SiLichess } from "react-icons/si";
 import { FiExternalLink } from "react-icons/fi";
 import { FaCheckCircle } from "react-icons/fa";
+import { FaAddressCard } from "react-icons/fa6";
 const skills = [
   { name: "HTML5", color: "#E34F26" }, // foundational and strong
   { name: "CSS3", color: "#5777f6ff" }, // creative styling wizard
@@ -81,6 +82,11 @@ const App = () => {
           </p>
           <p className="location">
             <ImLocation2 /> Dubai UAE
+          </p>
+          <p className="driving">
+            <a href="#">
+              <FaAddressCard /> UAE driving license
+            </a>
           </p>
 
           <h2 className="skills-title">KEY SKILLS</h2>

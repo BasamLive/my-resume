@@ -96,10 +96,12 @@ body {
   font-family: "fira code";
 }
 
-.phone > a {
+.phone,
+.driving > a {
   text-decoration: none;
 }
-.location {
+.location,
+.driving {
   padding: 3px;
   margin: 0;
   letter-spacing: 2px;
