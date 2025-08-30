@@ -107,6 +107,12 @@ body {
   letter-spacing: 2px;
   font-family: "fira code";
 }
+.location,
+.driving > a {
+  color: black;
+  cursor: not-allowed;
+  user-select: none;
+}
 
 .skills-container {
   padding-left: 3px;
