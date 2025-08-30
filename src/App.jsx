@@ -85,7 +85,7 @@ const App = () => {
           </p>
           <p className="driving">
             <a href="#">
-              <FaAddressCard /> UAE driving license
+              <FaAddressCard /> UAE driving license (2 years)
             </a>
           </p>
 
